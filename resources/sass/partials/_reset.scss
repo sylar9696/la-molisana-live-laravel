@@ -1,0 +1,16 @@
+@import './variabili';
+
+ul{
+    li{
+      display: inline-block;
+      margin: 0 20px;
+      a{
+          text-decoration: none;
+          color: $text-black;
+          padding: 10px;
+          &:hover{
+            background-color: lightblue;
+          }
+      }
+    }
+}
