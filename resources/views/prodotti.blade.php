@@ -8,6 +8,11 @@
 
 @section('content')
     <div class="bg-image">
+        <span>
+            <i class="fas fa-star"></i>
+        </span>
+
+
         <div class="row">
         {{-- @php
             dump($products)
@@ -18,7 +23,7 @@
                     <div class="col card">
                         <a href=" {{ route( 'prodotto', [ 'id' => $key ] ) }} ">
                             <img src=" {{ $product['src'] }} " alt="" class="pasta-img">
-                            <h3>
+                            <h3 class="text-primary">
                                 {{ $product['titolo'] }}
                             </h3>
                         </a>

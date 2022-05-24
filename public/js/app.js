@@ -19378,7 +19378,8 @@ module.exports = function(module) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
+__webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js"); //import '../../node_modules/@popperjs/core/dist/umd/popper.min.js';
+// import 'bootstrap/js/dist/dropdown';
 
 /***/ }),
 
@@ -19425,27 +19426,15 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
 /***/ }),
 
-/***/ "./resources/sass/app2.scss":
-/*!**********************************!*\
-  !*** ./resources/sass/app2.scss ***!
-  \**********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
 /***/ 0:
-/*!****************************************************************************************!*\
-  !*** multi ./resources/js/app.js ./resources/sass/app.scss ./resources/sass/app2.scss ***!
-  \****************************************************************************************/
+/*!*************************************************************!*\
+  !*** multi ./resources/js/app.js ./resources/sass/app.scss ***!
+  \*************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! C:\Users\aless\OneDrive\Desktop\laravel-live-58\la-molisana-live-laravel\resources\js\app.js */"./resources/js/app.js");
-__webpack_require__(/*! C:\Users\aless\OneDrive\Desktop\laravel-live-58\la-molisana-live-laravel\resources\sass\app.scss */"./resources/sass/app.scss");
-module.exports = __webpack_require__(/*! C:\Users\aless\OneDrive\Desktop\laravel-live-58\la-molisana-live-laravel\resources\sass\app2.scss */"./resources/sass/app2.scss");
+module.exports = __webpack_require__(/*! C:\Users\aless\OneDrive\Desktop\laravel-live-58\la-molisana-live-laravel\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
