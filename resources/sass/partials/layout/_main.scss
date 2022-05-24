@@ -1,6 +1,12 @@
-main{
+@import '../variabili';
+
+.bg-image{
     background-image: url('../images/fondo-pag-speciali.jpg');
     padding: 20px 0;
+}
+
+.bg-blue{
+    background-color: $blue;
 }
 
 .row{
